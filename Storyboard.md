@@ -42,9 +42,22 @@ you collect flashlight and ?keycard?
 unguarded,         
 once getting to the cafateria, you get spoon.
 
-=BARRACKS= ==============================================================================FILING ROOM=
-You can pick up either: lead pipe							You get the intel, saying that the 												eastern wall in the reception is weak, and the spoon will break
-			spikey baseball bat						
+=BARRACKS=                                             
+You can pick up either: lead pipe			
+			spikey baseball bat
+			50 cal sniper rifle
+			RPG
+			tactical nuke
 			ancient nord sword
 			flower vase(full, a golf club has just been planted)
 important intel-- you need the keycard for the filling room
+
+ =FILING ROOM=
+You get the intel, saying that the 												eastern wall in the reception is 											  weak, and the spoon will break it
+
+=VAULT=
+There is a teleporter, and you teleport to wardenland.
+You fight the warden jagger
+
+FIN
+			
