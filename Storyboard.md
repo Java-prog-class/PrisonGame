@@ -43,7 +43,7 @@ unguarded,
 once getting to the cafateria, you get spoon.
 
 =BARRACKS= ==============================================================================FILING ROOM=
-You can pick up either: lead pipe							You get the intel, saying that the wall on
+You can pick up either: lead pipe							You get the intel, saying that the 												eastern wall in the reception is weak, and the spoon will break
 			spikey baseball bat						
 			ancient nord sword
 			flower vase(full, a golf club has just been planted)
