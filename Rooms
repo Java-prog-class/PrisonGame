@@ -1,0 +1,24 @@
+import java.util.*;
+
+public class Rooms {
+
+	public static void main(String[]args){
+
+		ArrayList<PrisonBreak> room = new ArrayList<PrisonBreak>();
+		room.add(new PrisonBreak("Your Jail Cell", "It stinks."));
+		room.add(new PrisonBreak("Jailblock", "It stinks."));
+		room.add(new PrisonBreak("Hub Room", "It stinks."));
+		room.add(new PrisonBreak("Cafeteria", "It stinks."));
+		room.add(new PrisonBreak("Reception Room", "It stinks."));
+		room.add(new PrisonBreak("Offices", "It stinks."));
+		room.add(new PrisonBreak("Filing Room", "It stinks."));
+		room.add(new PrisonBreak("Vault", "It stinks."));
+		room.add(new PrisonBreak("Kitchen", "It stinks."));
+		room.add(new PrisonBreak("Warden Jagger's Office", "It is awesome."));
+		
+		for (PrisonBreak m : room){
+			System.out.println(m.toString());
+		}
+	}
+}
+
