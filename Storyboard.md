@@ -31,7 +31,7 @@ this brings you to world hub. weest = back
 =RECEPTION AREA= GOAL: obtain guards phat loot
 
 *AFTER GETTING WEAPON FROM BARRACKS*
-you smash guards face in over and over again(its really brutal) with a carrot, int the eye.
+you smash guards face in over and over again(its really brutal) with a carrot, in the eye.
 blood is everywhere.
 other guards come in, slip in the blood and break their necks.
 you collect flashlight and ?keycard?   
