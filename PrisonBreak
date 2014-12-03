@@ -1,0 +1,18 @@
+import java.util.*;
+public class PrisonBreak{
+	String title;
+	String description;
+
+	//constructos
+	PrisonBreak(String title, String description){
+		this.title = title;
+		this.description = description;
+	}
+
+	//most classes need to have this
+	public String toString(){
+		String s = String.format("Title=%-25s\tDescription=%4d",title,description);
+		return s;
+	}
+
+}
