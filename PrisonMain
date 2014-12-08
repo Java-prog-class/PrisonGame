@@ -1,0 +1,85 @@
+import java.util.*;
+
+public class PrisonMain {
+
+	//global (instance) variables
+	ArrayList<Room> roomList = new ArrayList<Room>();
+	int currentRoom = 1;
+	//Room currentRoom = ;
+	
+	public static void main(String[]args){
+		new PrisonMain();
+	}
+	
+	PrisonMain() {
+		Boolean playing = true;
+		String command = "";
+		setupRooms();
+		
+		//main game loop
+		//while (playing) {
+			//command = getCommand();
+			//set to false if the user quits
+//			playing = parseCommand(command);
+		playing = parseCommand("look");
+		playing = parseCommand("S");
+		playing = parseCommand("E");
+			
+			//set playing to false if the user is dead
+	//	}
+
+		
+		
+	}
+	
+	String getCommand() {
+		Scanner sc = new Scanner(System.in);
+		return "E";
+	}
+	
+	boolean parseCommand(String text) {
+		Room myroom = new Room(0,"","");
+		//check each room for current room id
+		for (Room r : roomList){
+			if (r.roomID == currentRoom) {
+				myroom = r; //set myroom to this room
+				break;
+			}
+		}
+		
+		text = text.toUpperCase();
+		//split text into words
+		String words[] = text.split(" ");
+		String word1 = words[0];
+		if (word1.equals("LOOK")) {
+			System.out.println("You are in the "+ myroom.title + ". " + myroom.description);
+		}
+		char dir = word1.charAt(0);
+		
+		if (dir == 'N' || dir == 'E' || dir == 'S' || dir == 'W') {			 
+			int newRoom = myroom.getExit(dir);
+			if (newRoom == 0) {
+				System.out.println("You can't go that way");
+				return true;
+			}
+			currentRoom = newRoom;
+			for (Room r : roomList){
+				if (r.roomID == currentRoom) {
+					myroom = r; //set myroom to this room
+					break;
+				}
+			}
+			System.out.println("You walk to the "+ myroom.title + ". " + myroom.description);
+		}
+		
+		return true;
+	}
+	
+	
+	void setupRooms() {
+
+		Room r = new Room(1, "Your Jail Cell", "It stinks.");
+		//		   N E S W
+		r.setExits(0,2,0,0);
+		roomList.add(r);
+		
