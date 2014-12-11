@@ -37,3 +37,13 @@ public class Room{
 	}
 
 }
+//CELL: You awake to the deaphening crys of your own thoughts, all pleading 
+//for escape from this hell. Your cell is small and dark, and yet, a bright hope suddenly 
+//sparks within you. This is the night to escape if you are to retain your sanity
+//JAILBLOCK: You are in disbelief at your luck, as the iron door of your cell silently swings open.
+//Stepping into the gloom, it encapulates you. Stumbling over a lone chair,  You are able to
+// make out a door at the far end of the massive room.
+//HUB This room is refreshingly well lit. You actually have choices here. On the north side, a 
+//gleaming neon sign states CAFATERIA. The east, the dreaded barracks waits, with gaping double doors. 
+//finally, to the left is reception, the entrance, and freedom!
+
